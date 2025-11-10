@@ -8,5 +8,16 @@
   <h1>Congratulations!</h1>
   <p>You found the hidden page.</p>
   <p>Final clue: password = <strong>ARG123</strong></p>
+  
+  <script>
+  const password = "42";
+  const user = prompt("Enter the secret password:");
+  if(user !== password){
+    alert("Wrong password!");
+    window.location.href = "index.html";
+  }
+</script>
+  
+  
 </body>
 </html>
